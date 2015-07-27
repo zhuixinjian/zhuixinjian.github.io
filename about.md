@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Heyward Fann, aka **fannheyward** on the web, is a developer based in Beijing, China.
+Zhuixinjian, aka **zhuixinjian** on the web, is a developer based in Beijing, China.
 
 - iOS
 - OpenResty(ngx_lua)
@@ -13,9 +13,9 @@ Heyward Fann, aka **fannheyward** on the web, is a developer based in Beijing, C
 - Node.js & Golang
 - Vim
 
-Contact me at [Twitter][1], [GitHub][2], [Stack Overflow][3], or <fannheyward@gmail.com>.
+Contact me at [Twitter][1], [GitHub][2], [Stack Overflow][3], or <zhuixinjian@gmail.com>.
 
-[1]: https://twitter.com/fannheyward
-[2]: https://github.com/fannheyward
-[3]: http://stackoverflow.com/users/380774/fannheyward
+[1]: https://twitter.com/zhuixinjian
+[2]: https://github.com/zhuixinjian
+[3]: http://stackoverflow.com/users/380774/zhuixinjian
 

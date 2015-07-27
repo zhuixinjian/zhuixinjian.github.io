@@ -1,5 +1,5 @@
 FROM ruby:2.1.3
-MAINTAINER Heyward Fann <fannheyward@gmail.com>
+MAINTAINER Zhuixinjian <zhuixinjian@gmail.com>
 
 RUN gem install github-pages
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
