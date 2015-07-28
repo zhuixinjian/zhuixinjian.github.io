@@ -16,5 +16,5 @@ Contact me at [Twitter][1], [GitHub][2], [Stack Overflow][3], or <zhuixinjian@gm
 [1]: https://twitter.com/zhuixinjian
 [2]: https://github.com/zhuixinjian
 [3]: http://stackoverflow.com/users/499743/zhuixinjian
-[4]: https://www.xinmei365/
+[4]: http://www.xinmei365.com/
 
