@@ -12,11 +12,10 @@ via [Kdr2][2]
 
 # Markdown jekyll support test
 
-python simple server `python -m SimpleHTTPServer 8000`
+	python simple server `python -m SimpleHTTPServer 8000`
 
 ## Header 1
 ### Header 2
-
 
 1. Text 1
 2. Text 2
