@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-**Zhuixinjian**, is a developer based in Beijing, China.
+**Zhuixinjian**, is a  based in Beijing, China.
 
 - iOS
 - OpenResty(ngx_lua)
