@@ -51,7 +51,7 @@ end
 
 `Emoji`
 
-I give this plugin two :+1:! music cat
+I give this plugin two :+1:! :music: :cat:
 
 [Zhuixinjian][3]
 
