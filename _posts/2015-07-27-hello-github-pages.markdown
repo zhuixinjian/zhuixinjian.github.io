@@ -23,6 +23,16 @@ via [Kdr2][2]
 
 ---
 
+```java
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.demo);
+        listView = (ListView) findViewById(R.id.download_list);
+        listView.setOnItemClickListener(this);
+    }
+```
+
 [Zhuixinjian][3]
 
 
