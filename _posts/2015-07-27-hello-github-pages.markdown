@@ -36,7 +36,7 @@ via [Kdr2][2]
 
 ```Ruby```
 
-{% highlight ruby linenos%}
+{% highlight ruby linenos %}
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
