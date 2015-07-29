@@ -23,8 +23,9 @@ via [Kdr2][2]
 
 ---
 
+```Java```
 ```java
-@Override
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.demo);
@@ -32,6 +33,17 @@ via [Kdr2][2]
         listView.setOnItemClickListener(this);
     }
 ```
+
+```Ruby```
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
 
 [Zhuixinjian][3]
 
