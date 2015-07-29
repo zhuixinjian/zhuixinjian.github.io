@@ -10,7 +10,7 @@ github_username:  zhuixinjian
 google_analytics_tracking_id: UA-65682024-4
 
 # Build settings
-highlighter: pygments
+pygments: true
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title
 
