@@ -16,10 +16,9 @@ cp ./src/proxychains.conf /etc/proxychians.conf
 cd .. && rm -rf proxychains-ng
 
 vim /etc/proxychains.conf
-
 socks5  127.0.0.1 1080  //1080改为你自己的端口
-proxychains4 wget http://twitter.com
 
+proxychains4 wget http://twitter.com
 ```
 
 齐活!

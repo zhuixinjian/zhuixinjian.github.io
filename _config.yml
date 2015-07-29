@@ -26,4 +26,5 @@ redcarpet:
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jemoji
 

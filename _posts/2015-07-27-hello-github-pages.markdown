@@ -48,6 +48,11 @@ def show
 end
 {% endhighlight %}
 
+
+`Emoji`
+
+I give this plugin two :+1:! music cat
+
 [Zhuixinjian][3]
 
 
