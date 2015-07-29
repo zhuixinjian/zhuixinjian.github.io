@@ -18,3 +18,6 @@ Contact me at [Twitter][1], [GitHub][2], [Stack Overflow][3], or <zhuixinjian@gm
 [3]: http://stackoverflow.com/users/499743/zhuixinjian
 [4]: http://www.xinmei365.com/
 
+---
+- 15.7.29 support emoji
+- 15.7.28 code style support pygments

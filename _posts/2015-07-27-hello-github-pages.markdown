@@ -48,10 +48,11 @@ def show
 end
 {% endhighlight %}
 
+---
 
 `Emoji`
 
-I give this plugin two :+1:! :music: :cat:
+I give this plugin two :+1:! :heart_eyes: :cat: :100:
 
 [Zhuixinjian][3]
 
