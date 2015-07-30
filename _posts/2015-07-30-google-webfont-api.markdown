@@ -18,11 +18,13 @@ style: |
 我擦,业务从2C转向2B之后,需要研究下web font怎么运作的.翻看了下[Google font Quick Start][1],核心的代码如下
 
 1. ink font style
+
 ```html
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 ```
 
 2. Custom css selector
+
 ```css
 .font-css-test {
   font-family: 'Tangerine', serif;
@@ -32,6 +34,7 @@ style: |
 ```
 
 3. Use css style.
+
 ```html
 <div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
 ```
@@ -56,6 +59,7 @@ style: |
  }
  </style>
 ```
+
 在`head.html`中添加如下两行代码,把子page页面中的自定义内容引用到head上
 
 ```ruby
