@@ -19,25 +19,25 @@ style: |
 
 1. ink font style
 
-```html
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-```
+	```html
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	```
 
 2. Custom css selector
 
-```css
-.font-css-test {
-  font-family: 'Tangerine', serif;
-  font-size: 48px;
-  text-shadow: 4px 4px 4px #aaa;
- }
-```
+	```css
+	.font-css-test {
+	  font-family: 'Tangerine', serif;
+	  font-size: 48px;
+	  text-shadow: 4px 4px 4px #aaa;
+	 }
+	```
 
 3. Use css style.
 
-```html
-<div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
-```
+	```html
+	<div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
+	```
 
 ## Preview
 <div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
