@@ -15,5 +15,52 @@ style: |
 ---
 
 ## Web Font Test
+我擦,业务从2C转向2B之后,需要研究下web font怎么运作的.翻看了下[Google font Quick Start][1],核心的代码如下
+1. ink font style
+```html
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+```
 
+2. Custom css selector
+```css
+.font-css-test {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+ }
+```
+
+3. Use css style.
+```html
 <div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
+```
+
+## Preview
+<div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
+
+
+## Others
+恰巧也研究了下[Jekyll][2]如何在子界面定义自己的样式.主要是用到了`page`页头部的`yaml`定义, 定义了两部分内容
+css & style.
+
+```
+css: <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+
+style: |
+ <style>
+ .font-css-test {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+ }
+ </style>
+```
+在`head.html`中添加如下两行代码,把子page页面中的自定义内容引用到head上
+
+```ruby
+{% if page.css %}{{ page.css | stylesheet }}{% endif %}
+{% if page.style %}{{ page.style }}{% endif %}
+```
+
+[1]: https://developers.google.com/fonts/docs/getting_started?csw=1#Quick_Start
+[2]: http://jekyllrb.com/
