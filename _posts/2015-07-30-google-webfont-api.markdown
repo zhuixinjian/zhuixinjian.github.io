@@ -6,7 +6,9 @@ css: <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/cs
 style: |
  <style>
  .font-css-test {
-  font-family: 'Font Name', serif;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
  }
  </style>
 
