@@ -16,6 +16,7 @@ style: |
 
 ## Web Font Test
 我擦,业务从2C转向2B之后,需要研究下web font怎么运作的.翻看了下[Google font Quick Start][1],核心的代码如下
+
 1. ink font style
 ```html
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
