@@ -13,6 +13,6 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{"/css/pygments.css" | prepend: site.baseurl }}">
 
-    {{page.custom_css}}
+    {% if page.custom_css %}{{ page.custom_css | stylesheet }}{% endif %}
 
 </head>
