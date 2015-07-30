@@ -1,14 +1,7 @@
 ---
 layout: post
 title: "Google webfont api"
-custom_css: <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
- ## <style>
-	## .font-css-test{
-	## 	  font-family: 'Tangerine', serif;
-	## 	  font-size: 48px;
-	## 	  text-shadow: 4px 4px 4px #aaa;
-	## 	}
-	## </style>
+css: <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 ---
 
 ## Web Font Test
