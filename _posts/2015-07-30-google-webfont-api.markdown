@@ -16,4 +16,4 @@ style: |
 
 ## Web Font Test
 
-<div class="font-css-test">Your text</div>
+<div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
