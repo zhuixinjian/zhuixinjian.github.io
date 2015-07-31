@@ -73,4 +73,4 @@ style: |
 
 [1]: https://developers.google.com/fonts/docs/getting_started?csw=1#Quick_Start
 [2]: http://jekyllrb.com/
-[3]: {% page.url %}
+[3]: {{ page.url }}
