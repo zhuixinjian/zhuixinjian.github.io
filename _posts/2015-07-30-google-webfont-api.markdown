@@ -67,10 +67,8 @@ style: |
 
 在`head.html`中添加如下两行代码,把子page页面中的自定义内容引用到head上
 
-{% highlight ruby linenos %}
-	{% if page.css %}{{ page.css | stylesheet }}{% endif %}
-	{% if page.style %}{{ page.style }}{% endif %}
-{% endhighlight %}
+{% gist zhuixinjian/7747aab59d9b8183fee7 %}
+
 
 [1]: https://developers.google.com/fonts/docs/getting_started?csw=1#Quick_Start
 [2]: http://jekyllrb.com/
