@@ -44,7 +44,7 @@ style: |
 > "Everything around you that you call life was made up by people, & you can change it." via Steve Jobs 
 </div>
 
-The index page not load font style. plz [click][{% page.url %}] to preview.
+The index page not load font style. plz [click][3] to preview.
 
 
 ## Others
@@ -73,3 +73,4 @@ style: |
 
 [1]: https://developers.google.com/fonts/docs/getting_started?csw=1#Quick_Start
 [2]: http://jekyllrb.com/
+[3]: {% page.url %}
