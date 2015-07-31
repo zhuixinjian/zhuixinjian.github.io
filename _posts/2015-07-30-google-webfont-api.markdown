@@ -69,6 +69,8 @@ style: |
 
 {% gist zhuixinjian/7747aab59d9b8183fee7 %}
 
+bwt: Jekyll 没法高亮自身的一些方法和属性.就只能贴到gist再引入过来.
+
 
 [1]: https://developers.google.com/fonts/docs/getting_started?csw=1#Quick_Start
 [2]: http://jekyllrb.com/
