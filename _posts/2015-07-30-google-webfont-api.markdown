@@ -41,7 +41,8 @@ style: |
 
 ## Preview
 <div class="font-css-test">
-> "Everything around you that you call life was made up by people, & you can change it." via Steve Jobs 
+"Everything around you that you call life was made up by people, & you can change it." 
+<p>via Steve Jobs </p>
 </div>
 
 The index page not load font style. plz [click][3] to preview.
