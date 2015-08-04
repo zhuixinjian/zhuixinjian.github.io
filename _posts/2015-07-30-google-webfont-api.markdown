@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Google webfont api"
+category: 'tech_web'
+tags: ['WebFont','Jekyll']
 css: <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 
 style: |

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Proxychains4 proxy in term"
+category: 'tech'
+tags: ['ProxyChains4','ShadowSocks','Proxy']
 ---
 
 `gem install jekyll` 毫无反应,而我又用的`ShadowSocks`翻墙,所以网上找了找命令行代理

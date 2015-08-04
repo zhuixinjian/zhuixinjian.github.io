@@ -23,6 +23,10 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
+.ahour a         { color: #000; text-decoration: none; }
+.ahour a:hover   { color: #000; text-decoration: none; }
+.ahour a:visited { color: #000; }
+
 img {
   max-width: 100%;
 }
