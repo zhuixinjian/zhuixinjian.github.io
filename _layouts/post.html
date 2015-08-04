@@ -20,16 +20,17 @@ css: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4
 
   {% assign category = site.data.categories[page.category] %}
   <p id="post-meta">Posted 
-  {% if category %}
-    in <code><a href="/blog/category/{{ page.category }}/">{{ category }}</a></code>
+  {% if category == null %}
+    {% assign category = page.category %}
   {% endif %}
+  in <code><a href="/blog/category/#{{ page.category }}">{{ category }}</a></code>
+  
 
   {% assign tag_size = page.tags.size %}
-  {% if tag_size > 0%}
-    with tag:<i class="fa fa-tags"></i>
+  {% if tag_size > 0 %}
+    with tags:<i class="fa fa-tags"></i>
     {% for post_tag in page.tags %}
-      {% assign tag = site.data.tags[post_tag] %}
-        <a href="/blog/tags/#{{post_tag}}">{{ tag }}</a>{% if forloop.last == false %},{% endif %}
+        <a href="/blog/tags/#{{post_tag}}">{{ post_tag }}</a>{% if forloop.last == false %},{% endif %}
     {% endfor %}
   {% endif %}</p>
   </article>
