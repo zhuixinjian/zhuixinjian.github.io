@@ -16,6 +16,21 @@ layout: default
 
   <article class="post-content">
   {{ content }}
+
+  {% assign category = site.data.categories[page.category] %}
+  <p id="post-meta">Posted 
+  {% if category %}
+    in <code><a href="/blog/category/{{ page.category }}/">{{ category }}</a></code>
+  {% endif %}
+
+  {% assign tag_size = page.tags.size %}
+  {% if tag_size > 0%}
+    with tag:
+    {% for post_tag in page.tags %}
+      {% assign tag = site.data.tags[post_tag] %}
+        <a href="/blog/tag/{{ tag.slug }}/">{{ tag }}</a>{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  {% endif %}</p>
   </article>
 
 </div>

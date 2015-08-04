@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "物权观-关于小乐乐的一些事情"
+category: 'general'
+tags: ['lele','ownership']
 ---
 
 ## 下一个阶段是物权观吗?

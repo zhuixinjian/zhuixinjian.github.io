@@ -1,17 +1,15 @@
 ---
 layout: default
 permalink: /blog/tags/
-
 ---
 
-<div class="home">
-
+<section id="archive">
+	<h2>All tags:</h2>
 	<ul>
-	{% for post in site.tags[page.tag] %}
-	  <li>
-	    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-	  </li>
-	{% endfor %}
-	</ul>
-
-</div>
+    {% for post_info in site.tags %}
+    	{% assign post_tag = post_info[0] %}
+    	{% assign tag = site.data.tags[post_tag] %}
+		<li style="list-style-type:none;"><a href="/blog/tag/{{ post_tag }}/">{{ tag }} : {{ post_info.size }}</a></li>
+    {% endfor %}
+    </ul>
+</section>

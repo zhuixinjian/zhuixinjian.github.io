@@ -1,35 +1,4 @@
-- slug: ShadowSocks
-  name: ShadowSocks
-
-- slug: proxychains
-  name: ProxyChains4
-
-- slug: django
-  name: Django
-
-- slug: django-template-tags
-  name: Django Template Tags
-
-- slug: font-awesome
-  name: Font Awesome
-
-- slug: icons
-  name: Icons
-
-- slug: image-processing
-  name: Image Processing
-
-- slug: python
-  name: Python
-
-- slug: github
-  name: GitHub
-
-- slug: github-pages
-  name: GitHub Pages
-
-- slug: jekyll
-  name: Jekyll
-
-- slug: open-source
-  name: Open Source
+lele: 乐乐
+ownership: Ownership
+shadowsocks: ShadowSocks
+proxychains: ProxyChains4
