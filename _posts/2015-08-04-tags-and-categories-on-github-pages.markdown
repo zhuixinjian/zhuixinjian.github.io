@@ -16,7 +16,9 @@ published: True
 
 一个博客系统没有`Tag`,`Category`怎么活?
 
-于是乎开始折腾,翻看[Jekyll API][3],研究[Liquid][4]语法,给这个博客搭建了一个`Tag`,`Category`界面,记录一下,帮助以后扩展其他页面有好处.
+于是乎开始折腾,翻看[Jekyll API][3],研究[Liquid][4]语法,给这个博客搭建了一个`Tag`,`Category`界面,记录一下,帮助以后扩展其他页面.
+
+<!--more-->
 
 ### 准备事项
 - [Jekyll API][3]

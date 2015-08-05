@@ -16,7 +16,7 @@ style: |
 
 ---
 
-## Web Font Test
+### Web Font Test
 我擦,业务从2C转向2B之后,需要研究下web font怎么运作的.翻看了下[Google Font Quick Start][1],核心的代码如下
 
 1. Link font style
@@ -40,6 +40,8 @@ style: |
 	```html
 	<div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
 	```
+
+<!--more-->
 
 ## Preview
 <div class="font-css-test">

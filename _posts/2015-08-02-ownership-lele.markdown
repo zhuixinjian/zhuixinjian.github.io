@@ -5,7 +5,7 @@ category: 'lele'
 tags: ['Ownership']
 ---
 
-## 下一个阶段是物权观吗?
+### 下一个阶段是物权观吗?
 
 [Ownership][1]
 

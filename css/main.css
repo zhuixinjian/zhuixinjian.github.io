@@ -184,6 +184,13 @@ img {
   font-weight: 300;
 }
 
+.post-header h2 {
+  font-size: 36px;
+  letter-spacing: -1.75px;
+  line-height: 1;
+  font-weight: 300;
+}
+
 .post-header .meta {
   font-size: 15px;
   color: #818181;
@@ -256,6 +263,28 @@ img {
   padding-right: 0;
   padding-left: 0;
 }
+
+.post readmore {
+  background-color: #3E9DF3;
+  padding: 8px 12px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 18px;
+  overflow:scroll;
+}
+
+.post readmore { padding: 1px 5px; }
+
+.post readmore a         { color: #fff; text-decoration: none; }
+.post readmore a:hover   { color: #fff; text-decoration: none; }
+.post readmore a:visited { color: #fff; }
+
+.post {
+  margin-bottom: 30px;
+}
+
+
 
 /* terminal */
 .post pre.terminal {

@@ -1,8 +1,8 @@
 # Site settings
-title:  Zhuixinjian
-author: "Zhuixinjian"
+title:  "Meet @Chris"
+author: "Chris"
 email: zhuixinjian@gmail.com
-description: "Zhuixinjian, not a Full Stack Developer, Developer 2 PM, blog about PM and my life."
+description: "Chris, not a Full Stack Developer, Developer 2 PM, blog about PM and my life."
 baseurl: ""
 url: "http://zhuixinjian.com"
 twitter_username: zhuixinjian
@@ -13,6 +13,8 @@ google_analytics_tracking_id: UA-65682024-4
 highlighter: pygments
 markdown: redcarpet
 permalink: pretty
+
+excerpt_separator: <!--more-->
 
 paginate: 10
 paginate_path: "/page/:num"
