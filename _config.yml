@@ -23,7 +23,7 @@ kramdown:
   input: GFM
 
 redcarpet:
-  extensions: ['smart', 'no_intra_emphasis', 'strikethrough', 'tables', 'footnotes', 'highlight', 'underline']
+  extensions: ['smart', 'no_intra_emphasis', 'strikethrough', 'tables', 'footnotes', 'highlight', 'underline', 'autolink', 'fenced_code_blocks','hard_wrap']
 
 gems:
   - jekyll-sitemap

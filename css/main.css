@@ -270,11 +270,11 @@ img {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 15px;
   overflow:scroll;
 }
 
-.post readmore { padding: 1px 5px; }
+.post readmore { padding: 5px 5px; }
 
 .post readmore a         { color: #fff; text-decoration: none; }
 .post readmore a:hover   { color: #fff; text-decoration: none; }
