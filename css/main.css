@@ -265,7 +265,7 @@ img {
 }
 
 .post readmore {
-  background-color: #3E9DF3;
+  background-color: #16a085;
   padding: 8px 12px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -276,9 +276,9 @@ img {
 
 .post readmore { padding: 5px 5px; }
 
-.post readmore a         { color: #fff; text-decoration: none; }
-.post readmore a:hover   { color: #fff; text-decoration: none; }
-.post readmore a:visited { color: #fff; }
+.post readmore a         { color: #fff; font-weight: 700; text-decoration: none; }
+.post readmore a:hover   { color: #fff; font-weight: 700; text-decoration: none; }
+.post readmore a:visited { color: #fff; font-weight: 700; }
 
 .post {
   margin-bottom: 30px;
@@ -464,3 +464,21 @@ img {
   padding-left: 10px;
 }
 
+.share-page {
+  text-align: center;
+  background: #16a085;
+  color: #efefef;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 48px 0;
+}
+
+.share-page a {
+  font-weight: 700;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.share-page a:hover {
+  border-bottom: 1px dashed #fff;
+}

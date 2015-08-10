@@ -23,7 +23,7 @@ css: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4
   {% if category == null %}
     {% assign category = page.category %}
   {% endif %}
-  in <code><a href="/blog/category/#{{ page.category }}">{{ category }}</a></code>
+  in <readmore><a href="/blog/category/#{{ page.category }}">{{ category }}</a></readmore>
   
 
   {% assign tag_size = page.tags.size %}
