@@ -7,15 +7,14 @@ permalink: /blog/tags/
 <header class="post-header">
 	<h1>Tags</h1>
 </header>
-
-<section id="archive">
+<section id="tag-box">
     {% for post_info in site.tags %}
     	{% assign post_tag = post_info[0] %}
     	{% assign tag = site.data.tags[post_tag] %}
     	{% if tag == null %}
     		{% assign tag = post_tag %}
     	{% endif %}
-	<h2 class="ahour"><a name="{{post_tag}}">{{ tag }} ({{ post_info[1].size }}):</a></h2>
+	<h2 class="ahour"><a name="{{post_tag}}">{{ tag }}<span>{{ post_info[1].size }}</span>:</a></h2>
 	<ul>
 		{% for post in post_info[1] %}
 		<li style="list-style-type:none;"><time>{{ post.date | date: "%m-%d" }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>

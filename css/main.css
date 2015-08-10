@@ -465,6 +465,54 @@ img {
   padding-left: 10px;
 }
 
+/*tag-box*/
+#tag-box h2 { font-size: 22px; }
+#tag-box ul {
+  margin-left: 10px;
+}
+
+#tag-box ul li time {
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+#tag-box ul li time:after {
+  content: "•";
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#tag-box a span {
+    font-size: 10px;
+    vertical-align: super;
+    color: black;
+}
+
+/*category-box*/
+#category-box h2 { font-size: 22px; }
+#category-box ul {
+  margin-left: 10px;
+}
+
+#category-box ul li time {
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+#category-box ul li time:after {
+  content: "•";
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#category-box a span {
+    font-size: 10px;
+    vertical-align: super;
+    color: black;
+}
+
 .share-page {
   text-align: center;
   background: #16a085;
