@@ -3,6 +3,8 @@ layout: post
 title: "业务连续调整"
 category: 'startup'
 tags: ['Reorganize']
+comments: True
+shares: True
 ---
 
 最近一段时间连续调整业务,心态也是跟着一波一波的荡漾,也越来越能理解公司这个组织形态的成长方式.

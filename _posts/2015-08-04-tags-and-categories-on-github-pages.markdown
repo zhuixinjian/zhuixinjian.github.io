@@ -4,6 +4,8 @@ title: HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS
 category: 'tech_web'
 tags: ['Jekyll','Github Pages']
 published: True
+comments: True
+shares: True
 ---
 
 [Github Pages][2] 很帅,[Jekyll][3]这个基于`MarkDown`的博客系统也很帅 :smile:

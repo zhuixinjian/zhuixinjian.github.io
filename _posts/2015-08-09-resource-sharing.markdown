@@ -4,6 +4,8 @@ title: Resource Sharing
 category: startup
 tags: []
 published: True
+comments: True
+shares: True
 
 ---
 

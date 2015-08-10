@@ -4,6 +4,8 @@ title: Monthly Review 2015-07
 category: "monthly_review"
 tags: []
 published: True
+comments: True
+shares: True
 
 ---
 

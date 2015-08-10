@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Hello world!"
+comments: True
+shares: True
 ---
 
 Hello github pages. copy from [fannheyward][1]
