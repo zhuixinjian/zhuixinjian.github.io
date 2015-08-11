@@ -3,6 +3,7 @@ layout: post
 title: "Hello world!"
 comments: True
 shares: True
+category: 'general'
 ---
 
 Hello github pages. copy from [fannheyward][1]

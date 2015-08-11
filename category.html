@@ -8,6 +8,17 @@ permalink: /blog/category/
 	<h1>Categories</h1>
 </header>
 
+<ul class="tag-list inline">
+{% for post_info in site.categories %}
+	{% assign post_cate = post_info[0] %}
+	{% assign cate = site.data.categories[post_cate] %}
+	{% if cate == null %}
+		{% assign cate = post_cate %}
+	{% endif %}
+	<li><a href="#{{post_cate}}">{{ cate }}<span>{{ post_info[1].size }}</span></a></li>
+{% endfor %}
+</ul>
+
 <section id="category-box">
     {% for post_info in site.categories %}
     	{% assign post_cate = post_info[0] %}

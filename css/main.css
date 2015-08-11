@@ -15,12 +15,13 @@ body {
   line-height: 1.5;
   font-weight: 300;
   background-color: #fdfdfd;
+  /*background-color: #DEDEDE;*/
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
+a:hover   { color: #e51843; text-decoration: underline; }
 a:visited { color: #205caa; }
 
 .ahour a         { color: #000; text-decoration: none; }
@@ -91,13 +92,16 @@ img {
 }
 
 .footer-heading {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
   letter-spacing: -.5px;
   margin-bottom: 15px;
 }
 
 .site-footer .column { float: left; margin-bottom: 15px; }
+
+.site-footer .column a{color:#828282;}
+.site-footer .column a:hover{color:#e51843;}
 
 .footer-col-1 {
   width: 270px; /*fallback*/
@@ -105,7 +109,7 @@ img {
   width: -moz-calc(33% - 10px);
   width: -o-calc(33% - 10px);
   width: calc(33% - 10px);
-  margin-right: 10px
+  margin-right: 10px;
 }
 .footer-col-2 {
   width: 175px; /*fallback*/
@@ -130,6 +134,10 @@ img {
   font-size: 15px;
   letter-spacing: -.3px;
   color: #828282;
+}
+.site-footer .text a {
+  color: #252525;
+  text-decoration: underline;
 }
 
 .github-icon-svg,
@@ -265,7 +273,7 @@ img {
   padding-left: 0;
 }
 
-.post readmore {
+.post readmore a{
   background-color: #16a085;
   padding: 8px 12px;
   -webkit-border-radius: 4px;
@@ -275,10 +283,10 @@ img {
   overflow:scroll;
 }
 
-.post readmore { padding: 5px 5px; }
+.post readmore a{ padding: 5px 5px; }
 
 .post readmore a         { color: #fff; font-weight: 700; text-decoration: none; }
-.post readmore a:hover   { color: #fff; font-weight: 700; text-decoration: none; }
+.post readmore a:hover   { background-color: #e51843; color: #fff; font-weight: 700; text-decoration: none; }
 .post readmore a:visited { color: #fff; font-weight: 700; }
 
 .post {
@@ -465,6 +473,41 @@ img {
   padding-left: 10px;
 }
 
+.tag-list {
+  overflow: hidden;
+  list-style: none;
+  padding: 4px 0;
+  margin: 0;
+}
+
+.tag-list.inline li {
+    float: left;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.tag-list a {
+    padding: 4px 6px;
+    margin: 2px;
+    text-decoration: none;
+    border: 0.0625rem solid black;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.tag-list a span {
+    font-size: 10px;
+    vertical-align: super;
+    color: black;
+}
+
+.tag-list li a span {
+    font-size: 10px;
+    vertical-align: super;
+    color: black;
+}
+
 /*tag-box*/
 #tag-box h2 { font-size: 22px; }
 #tag-box ul {
@@ -483,7 +526,7 @@ img {
   padding-left: 10px;
 }
 
-#tag-box a span {
+#tag-box h2 span {
     font-size: 10px;
     vertical-align: super;
     color: black;
