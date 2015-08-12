@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://zhuixinjian.com"
 twitter_username: zhuixinjian
 github_username:  zhuixinjian
-google_analytics_tracking_id: UA-65682024-4
+google_analytics_tracking_id: UA-65682024-1
 
 # Build settings
 highlighter: pygments
