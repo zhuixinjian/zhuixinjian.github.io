@@ -39,7 +39,37 @@ shares: True
 ### Do it
 于是创建了如下这个界面,把所有的帖子按照`Tag`来进行分组显示
 
-{% gist zhuixinjian/0b7b8ed992651284fd11 %}
+`tag.html`
+
+{% highlight html %}
+{% raw %}
+---
+layout: default
+title: Tags
+permalink: /blog/tags/
+---
+
+<header class="post-header">
+	<h1>Tags</h1>
+</header>
+
+<section id="archive">
+    {% for post_info in site.tags %}
+    	{% assign post_tag = post_info[0] %}
+    	{% assign tag = site.data.tags[post_tag] %}
+    	{% if tag == null %}
+    		{% assign tag = post_tag %}
+    	{% endif %}
+	<h2 class="ahour"><a name="{{post_tag}}">{{ tag }} ({{ post_info[1].size }}):</a></h2>
+	<ul>
+		{% for post in post_info[1] %}
+		<li style="list-style-type:none;"><time>{{ post.date | date: "%m-%d" }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+    {% endfor %}
+</section>
+{% endraw %}
+{% endhighlight %}
 
 这个中间有一个小技巧后面会用到,那就是给每个标签打一个锚点
 
@@ -48,13 +78,38 @@ shares: True
 ```
 
 ### Post.html添加标签
-{% gist zhuixinjian/9475eae0f2ae658c2d89 %}
+
+{% highlight html %}
+{% raw %}
+<article class="post-content">
+  {{ content }}
+
+  {% assign category = site.data.categories[page.category] %}
+  <p id="post-meta">Posted 
+  {% if category == null %}
+    {% assign category = page.category %}
+  {% endif %}
+  in <code><a href="/blog/category/#{{ page.category }}">{{ category }}</a></code>
+  
+
+  {% assign tag_size = page.tags.size %}
+  {% if tag_size > 0 %}
+    with tag:<i class="fa fa-tags"></i>
+    {% for post_tag in page.tags %}
+        <a href="/blog/tags/#{{post_tag}}">{{ post_tag }}</a>{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  {% endif %}</p>
+</article>
+{% endraw %}
+{% endhighlight %}
 
 核心就是用上面的锚点来跳转,也算是实现了`Tag`和`Category`
 
-```html
-<a href="/blog/tags/#post_tag">post_tag</a>
-```
+{% highlight html %}
+{% raw %}
+<a href="/blog/tags/#{{post_tag}}">{{post_tag}}</a>
+{% endraw %}
+{% endhighlight %}
 
 ### 预览效果
 

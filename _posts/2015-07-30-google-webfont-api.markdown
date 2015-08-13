@@ -73,9 +73,14 @@ style: |
 
 在`head.html`中添加如下两行代码,把子page页面中的自定义内容引用到head上
 
-{% gist zhuixinjian/7747aab59d9b8183fee7 %}
+{% highlight html %}
+{% raw %}
+{% if page.css %}{{ page.css | stylesheet }}{% endif %}
+{% if page.style %}{{ page.style }}{% endif %}
+{% endraw %}
+{% endhighlight %}
 
-bwt: Jekyll 没法高亮自身的一些方法和属性.就只能贴到gist再引入过来.
+bwt: Jekyll 高亮自身的一些方法和属性.使用`raw` & `endraw`
 
 
 [1]: https://developers.google.com/fonts/docs/getting_started?csw=1#Quick_Start
