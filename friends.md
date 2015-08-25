@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Friends
 permalink: /friends/
 comments: True
 ---

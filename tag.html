@@ -10,7 +10,7 @@ permalink: /blog/tags/
 
 <ul class="tag-list inline">
 {% for post_info in site.tags %}
-	{% assign post_tag = post_info[0] %}
+	{% assign post_tag = post_info | first %}
 	{% assign tag = site.data.tags[post_tag] %}
 	{% if tag == null %}
 		{% assign tag = post_tag %}

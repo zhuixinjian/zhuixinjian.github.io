@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS
-category: 'tech_web'
+category: 'jekyll'
 tags: ['Jekyll','Github Pages']
 published: True
 comments: True
