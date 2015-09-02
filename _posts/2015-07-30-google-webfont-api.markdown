@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google webfont api"
-category: 'tech_web'
+category: jekyll
 tags: ['WebFont','Jekyll']
 comments: True
 shares: True

@@ -12,7 +12,7 @@ shares: True
 公司的企业文化是:
  > **Innovation Share Happiness**
 
-所以把`United States`大会议室共享出来用于各种沙龙,meeting,圆桌.
+所以把**United States**大会议室共享出来用于各种沙龙,meeting,圆桌.
 
 **介绍下这个会议室:**
 

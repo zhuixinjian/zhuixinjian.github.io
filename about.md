@@ -23,7 +23,7 @@ Contact me at [Twitter][1], [GitHub][2], [Stack Overflow][3], or <zhuixinjian@gm
 
 ---
 ## Release Note
-
+- 15.8.25 add Checkbox
 - 15.8.10 PM写CSS是很蛋疼的,请看readmore那个鼠标hover颜色
 - 15.8.10 add social share
 - 15.8.10 add disqus comments
