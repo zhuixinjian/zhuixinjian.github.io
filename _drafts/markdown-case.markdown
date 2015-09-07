@@ -35,7 +35,10 @@ This is `_underlined_` but this is still `*italic*`.
 This is _underlined_ but this is still *italic*.
 
 
-##Quote
+##~~Quote[^2]~~
 :quote: parse quotes. This is a "quote". It looks like this: `<q>quote</q>`
+
+
+[^2]: markdown parse support,but this is not css support
 
 
