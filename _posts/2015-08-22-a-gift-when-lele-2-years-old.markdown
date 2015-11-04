@@ -5,6 +5,7 @@ category: lele
 tags: ['ITP','乐高','小米Note']
 published: True
 comments: True
+shares: True
 
 ---
 
