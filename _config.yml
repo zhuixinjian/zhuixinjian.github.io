@@ -10,7 +10,7 @@ github_username:  zhuixinjian
 google_analytics_tracking_id: UA-65682024-1
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 permalink: pretty
 
