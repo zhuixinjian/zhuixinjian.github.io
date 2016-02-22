@@ -11,7 +11,7 @@ google_analytics_tracking_id: UA-65682024-1
 
 # Build settings
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
 
 excerpt_separator: <!--more-->
