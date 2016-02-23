@@ -18,6 +18,7 @@ via [Kdr2][2]
 	python simple server `python -m SimpleHTTPServer 8000`
 
 ## Header 1
+
 ### Header 2
 
 1. Text 1
@@ -29,13 +30,13 @@ via [Kdr2][2]
 `Java`
 
 ```java
-	@Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.demo);
-        listView = (ListView) findViewById(R.id.download_list);
-        listView.setOnItemClickListener(this);
-    }
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.demo);
+    listView = (ListView) findViewById(R.id.download_list);
+    listView.setOnItemClickListener(this);
+}
 ```
 
 `Ruby`

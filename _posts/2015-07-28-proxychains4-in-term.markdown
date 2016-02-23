@@ -9,7 +9,7 @@ shares: True
 
 `gem install jekyll` 毫无反应,而我又用的`ShadowSocks`翻墙,所以网上找了找命令行代理
 
-## proxychains
+### proxychains
 
 ```
 git clone https://github.com/rofl0r/proxychains-ng.git

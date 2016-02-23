@@ -8,7 +8,7 @@ comments: True
 
 ---
 
-## 不定期更新各种鸡汤,句子,杂七杂八.
+### 不定期更新各种鸡汤,句子,杂七杂八.
 
 
 There are one hundred ways to fix a problem. However, the ultimate solution is, don't give it any chance to happen. 
