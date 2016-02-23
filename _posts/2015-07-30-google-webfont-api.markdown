@@ -23,9 +23,10 @@ style: |
 
 1. Link font style
 
-```HTML
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+```html
+<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Tangerine'>
 ```
+
 2. Custom css selector
 
 ```css
@@ -35,11 +36,13 @@ style: |
   text-shadow: 4px 4px 4px #aaa;
  }
 ```
+
 3. Use css style.
 
-```css
-<div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
+```html
+<div class='font-css-test'>css style just load in detail pages. so you need click in it.</div>
 ```
+
 <!--more-->
 
 ## Preview
