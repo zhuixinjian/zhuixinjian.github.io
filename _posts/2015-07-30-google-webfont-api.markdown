@@ -28,7 +28,7 @@ style: |
 ```
 2. Custom css selector
 
-```CSS
+```css
 .font-css-test {
   font-family: 'Tangerine', serif;
   font-size: 48px;
@@ -37,7 +37,7 @@ style: |
 ```
 3. Use css style.
 
-```HTML
+```css
 <div class="font-css-test">css style just load in detail pages. so you need click in it.</div>
 ```
 <!--more-->
