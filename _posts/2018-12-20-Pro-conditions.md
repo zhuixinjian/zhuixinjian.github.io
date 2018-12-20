@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Privacy & Terms
+title: Emoji Pro Conditions
 category: general
 tags: []
 published: True
